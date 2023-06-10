@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-dots-vertical-rounded" id="menu-icon"></div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>B.Vinay Kumar</h1>
+            <p></p>
+            <div class="social-media">
+                <a href="https://github.com/Vinay1126"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/vinayyy.b._/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/b-vinay-kumar-7a779b24a/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="images\Viany's Resume.pdf" download class="btn">Download Resume</a>
+        </div>
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bxs-graduation'></i>
+                    <h3>Student</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bxs-graduation'></i>
+                    <h3>Student</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+        <div class="home-img">
+            <img src="images/result.png" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading"><span>B.Vinay Kumar</span></h2>
+            <p>Hello there! I'm a web developer experienced in HTML, CSS, JavaScript, React, Node.js, SQL, MongoDB,
+                Express, and more. With a solid foundation in front-end development, I create engaging and interactive
+                user interfaces. I'm proficient in React, enabling me to build dynamic and scalable web applications.
+                Additionally, my back-end skills encompass Node.js, Express, SQL, and MongoDB, allowing me to develop
+                robust server-side functionalities and handle data management efficiently. I'm passionate about crafting
+                seamless web experiences and constantly staying up-to-date with the latest technologies and best
+                practices. Let's collaborate and bring your ideas to life on the web!</p>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My Projects</h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/vep.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Vep Login</h4>
+                    <p>Login into your Vep account and check details.</p>
+                    <a href="https://vep-beta.vercel.app/"><i class='bx bx-link-alt'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/doList.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>To Do List</h4>
+                    <p>Add your daily tasks.</p>
+                    <a href="https://to-do-list-six-tau.vercel.app/"><i class='bx bx-link-alt'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>ME!</span></h2>
+        <form action="mailto:kumarbvinay12@gmail.com" method="post">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile No.">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+            <input type="submit" name="" id="" value="Send message" class="btn">
+        </form>
+    </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
